@@ -10,6 +10,7 @@
 
 #define SERV_PORT 9527
 
+/*Error dipose*/
 void sys_err(const char* str){
 	perror(str);
 	exit(1);
