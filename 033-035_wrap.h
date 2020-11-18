@@ -8,8 +8,10 @@
 #include<sys/types.h>
 #include<sys/socket.h>
 #include<string.h>
+#include<strings.h>
 #include<ctype.h>
 #include<signal.h>
+#include<poll.h>
 #endif
 
 void perr_exit(const char* str);
