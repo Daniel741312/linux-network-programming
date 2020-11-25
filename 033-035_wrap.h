@@ -1,6 +1,7 @@
 #ifndef _WRAP_H_
 #define _WRAP_H_
 #include<unistd.h>
+#include<fcntl.h>
 #include<errno.h>
 #include<stdlib.h>
 #include<stdio.h>
