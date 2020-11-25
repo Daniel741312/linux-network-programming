@@ -12,6 +12,7 @@
 #include<ctype.h>
 #include<signal.h>
 #include<poll.h>
+#include<sys/epoll.h>
 #endif
 
 void perr_exit(const char* str);
